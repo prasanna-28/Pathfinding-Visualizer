@@ -1,0 +1,38 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(50, 20px);
+  grid-template-rows: repeat(50, 20px);
+  width: 1000px;
+  height: 1000px;
+  border: 2px solid black;
+}
+
+.cell {
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.wall {
+  background-color: black;
+}
+
+.path {
+  background-color: blue;
+}
+
+.searching {
+  background-color: yellow;
+}
+
+.path {
+  background-color: blue;
+}
